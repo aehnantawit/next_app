@@ -25,10 +25,10 @@ function Detail() {
     )
 }
 
-export async function getServerSideProps(ctx) {
-    return {
-        props: { id: ctx.query.id }, // will be passed to the page component as props
-    }
-}
+// export async function getServerSideProps(ctx) {
+//     return {
+//         props: { id: ctx.query.id }, // will be passed to the page component as props
+//     }
+// }
 
 export default Detail
